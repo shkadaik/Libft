@@ -6,7 +6,7 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 02:01:49 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/07/27 02:40:34 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/07 13:04:20 by nassim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,17 +104,3 @@ char	**ft_split(char const *s, char c)
 	tab[j] = 0;
 	return (tab);
 }
-
-//#include <stdio.h>
- 
-//int      main(void)
-//{
-//	char test[] = "le bled c'est de la merde"; 
-//	char **arr = ft_split(test, 'e');
-//	int i = 0;
-//	while (arr[i] != 0)
-//	{
-//		printf("[%s]\n", arr[i]);
-//	++i;
-//	}
-//}

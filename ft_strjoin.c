@@ -6,12 +6,11 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/26 18:22:50 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/07/27 00:56:38 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/07 13:05:08 by nassim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 size_t	ft_strlen(const char *str)
 {

@@ -6,12 +6,11 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/25 03:36:30 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/07/26 19:30:48 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/07 13:09:31 by nassim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

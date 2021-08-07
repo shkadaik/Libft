@@ -6,12 +6,11 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/25 03:36:11 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/07/26 18:42:25 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/07 12:21:00 by nassim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 int		ft_atoi(const char *str)
 {
