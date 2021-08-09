@@ -6,13 +6,13 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/09 12:21:57 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/08/09 12:28:42 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/10 00:33:45 by shkadaik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_delete(t_list *list, void (*del)(void))
+void	ft_delete(t_list *list, void (*del)(void *))
 {
 	while (list)
 	{

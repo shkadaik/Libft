@@ -6,21 +6,11 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 01:13:31 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/08/09 13:09:52 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/10 01:17:27 by shkadaik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *str)
-{
-	int		i;
-
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
 
 static int	ft_check(char c, char const *set)
 {
@@ -64,7 +54,7 @@ char		*ft_strtrim(char const *s1, char const *set)
 	int		k;
 	char	*new;
 
-	if ((s1 == '\0') || ((s1 == '\0') && (set == '\0')))
+	if ((!s1) || ((!s1) && (!set)))
 		return (NULL);
 	i = 0;
 	j = ft_strlen(s1) - 1;
@@ -84,10 +74,4 @@ char		*ft_strtrim(char const *s1, char const *set)
 	}
 	new = newstr((char *)s1, i, j, k);
 	return (new);
-}
-
-int					main(void)
-{
-	printf("%s", ft_strtrim("ooaosaoaolorem ipsum doalor sit am oaotaoaaaasaaaaoooooo", "oa"));
-	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/25 03:36:30 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/08/09 13:08:57 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/10 00:35:04 by shkadaik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,4 @@ void	*ft_memchr(const void *s, int c, size_t n)
 		str++;
 	}
 	return (NULL);
-}
-
-int    main(void)
-{
-    char    test[] = "abcdef";
-
-    printf("%s\n", ft_memchr(test, 'c', 5));
-    ft_memchr(test, 'c', 5);
-    ft_memchr(test, '\0', 7), 
-    ft_memchr(test, 'z', 6);
-
- 
-    return (0);
-
 }

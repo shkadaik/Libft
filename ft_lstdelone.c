@@ -6,13 +6,13 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/09 12:23:05 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/08/09 12:23:05 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/10 00:34:20 by shkadaik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static void	del(void *content)
+void	del(void *content)
 {
 	free(content);
 }

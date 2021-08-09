@@ -6,7 +6,7 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/25 03:36:22 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/07/25 04:36:05 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/10 00:27:30 by shkadaik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int		ft_isalpha(int c)
 {
-	if (ft_isupper(c) || ft_islower(c))
+	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 		return (1);
 	return (0);
 }
