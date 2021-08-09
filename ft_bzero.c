@@ -6,7 +6,7 @@
 /*   By: shkadaik <shkadaik@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/25 03:36:15 by shkadaik          #+#    #+#             */
-/*   Updated: 2021/07/25 05:56:38 by shkadaik         ###   ########.fr       */
+/*   Updated: 2021/08/09 12:22:51 by shkadaik         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,5 @@
 void	ft_bzero(void *s, size_t n)
 {
 	if (n > 0)
-		ft_memset(s, 0, n)
+		ft_memset(s, 0, n);
 }
